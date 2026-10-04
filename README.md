@@ -56,41 +56,21 @@ Recommendations are aids, not a guarantee of the best photograph or expression. 
 
 ### 1. Review similar groups
 
-```mermaid
-flowchart LR
-    A["Camera / card · 相机／存储卡"] --> D["Local analysis · 本机分析"]
-    B["Folder · 文件夹"] --> D
-    C["Photos album + dates · 相册与日期"] --> D
-    D --> E["Similar groups · 相似组"]
-    D --> F["Unresolved items · 尚待处理"]
-```
+![Similar-photo groups in WorthPhotos](docs/images/overview.png)
 
-*Analysis groups the selected scope. Unavailable or incomplete items remain separate from completed recommendations.*
+*The actual Chinese app interface, shown with synthetic demonstration images. These illustrate the workflow, not photographic selection accuracy.*
 
 ### 2. Compare before deciding
 
-```mermaid
-flowchart LR
-    A["Open a group · 查看一组"] --> B["Compare · 比较"]
-    B --> C["Zoom and inspect · 缩放检查"]
-    C --> D["Keep / protect · 保留／锁定"]
-    C --> E["Exclude / defer · 不保留／稍后"]
-```
+![Two-photo comparison with independent zoom](docs/images/comparison.png)
 
-*Your confirmed choices and protection locks take priority. Excluding a photo affects this selection; its source stays in place.*
+*Inspect alternatives together, with independent zoom and optional detail scores. Your confirmed choices and protection locks take priority.*
 
 ### 3. Check the output
 
-```mermaid
-flowchart LR
-    A["Selection · 精选清单"] --> B["Check count and destination · 核对数量与目标"]
-    B --> C["New folder · 新文件夹"]
-    B --> D["Photos album / original import · 相册／原片导入"]
-    C --> E["Inspect the result · 检查结果"]
-    D --> E
-```
+![Output confirmation and selection list](docs/images/output.png)
 
-*Review the destination before confirming. Unresolved items are listed separately. The source originals remain available.*
+*Review the selection count and destination before copying or importing. Incomplete or unresolved items are shown separately.*
 
 ## Sources and output
 
